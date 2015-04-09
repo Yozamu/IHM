@@ -1,0 +1,35 @@
+[
+  {
+    "yearb" : "2014",
+    "yeare" : "2014",
+    "company" : "CADAM",
+    "city" : "Nice",
+    "job" : "temporary worker (summer) at the general police service.",
+    "dateb" : "01/07/14",
+    "datee" : "31/07/14",
+    "description" : "I've been working at the general police service, meaning I had to do tasks such as guns registration.",
+    "earnedskills" : "learning to use national softwares, and that way improving my law understanding."
+  },
+  {
+    "yearb" : "2013",
+    "yeare" : "2013",
+    "company" : "CADAM",
+    "city" : "Nice",
+    "job" : "temporary worker (summer) at the identity cards service.",
+    "dateb" : "01/07/13",
+    "datee" : "31/07/13",
+    "description" : "I've been working at the identity cards service. I had to create new cards and destroy obsolete ones.",
+    "earnedskills" : "improving my teamwork and using a national software."
+  },
+  {
+    "yearb" : "2012",
+    "yeare" : "2012",
+    "company" : "E. Leclerc",
+    "city" : "Nice",
+    "job" : "temporary worker (summer) at shelving.",
+    "dateb" : "01/07/13",
+    "datee" : "31/07/13",
+    "description" : "I've been working in various supermarket shelves, where I had to place products before the store opened.",
+    "earnedskills" : "discovering the working world, having a first contact with people in business."
+  }
+]

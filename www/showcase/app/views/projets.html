@@ -1,0 +1,10 @@
+<form class="texte">
+  <p>Search by starting year : <input type="text" name="city" ng-model="filteredProjects.yearb" /></p>
+  <p>Search by name : <input type="text" name="city" ng-model="filteredProjects.name" /></p>
+</form>
+<div class="texte" ng-repeat="project in projects | filter: filteredProjects">
+  <p><b><i>Project's name</i></b> : {{project.name}}</p>
+  <p><b><i>From</i></b> : {{project.yearb}}</p>
+  <p><b><i>To</i></b> : {{project.yeare}}</p>
+  <p><b><i>Description</i></b> : {{project.description}}</p>
+</div>

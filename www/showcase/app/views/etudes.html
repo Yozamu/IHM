@@ -1,0 +1,15 @@
+<form class="texte">
+  <p>Search by starting year : <input type="text" name="city" ng-model="filteredYears.yearb" /></p>
+  <p>Search by city : <input type="text" name="city" ng-model="filteredYears.city" /></p>
+  <p>Search by school : <input type="text" name="city" ng-model="filteredYears.school" /></p>
+  <p>Search by level : <input type="text" name="city" ng-model="filteredYears.level" /></p>
+</form>
+<div class="texte" ng-repeat="year in years | filter: filteredYears">
+  <p><b><i>School</i></b> : {{year.school}}</p>
+  <p><b><i>Starting year</i></b> : {{year.yearb}} (date : {{year.dateb}})</p>
+  <p><b><i>Ending year</i></b> : {{year.yeare}} (date : {{year.datee}})</p>
+  <p><b><i>City</i></b> : {{year.city}}</p>
+  <p><b><i>Level</i></b> : {{year.level}}</p>
+  <p><b><i>Study subject</i></b> : {{year.study}}</p>
+  <p><b><i>Description</i></b> : {{year.description}}</p>
+</div>

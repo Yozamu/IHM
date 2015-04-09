@@ -1,0 +1,221 @@
+body {
+  background-image: url(../images/background.jpg);
+  background-attachment:fixed;
+  background-size: 100% 100%;
+
+}
+
+.classement{
+  margin: 20px;
+  padding: 3px;
+  background-color: rgb(210,210,210);
+}
+
+.imgjeu{
+  float: left;
+  margin: 5px;
+}
+
+.clear {
+  clear: both;
+}
+
+td.classement{
+  padding: 5px;
+  background-color: rgb(230,230,230);
+  text-align: center;
+  font-style: italic;
+}
+
+td.ladder{
+  padding: 5px;
+  background-color: rgb(200,200,200);
+  text-align: center;
+  font-weight: bold;
+}
+
+a{
+
+}
+
+a.parties{
+  color: rgb(40,40,40);
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(200,200,200);
+  border: 2px dotted;
+  padding: 5px;
+  font-size: 18px;
+}
+
+a:hover.parties{
+  color: #800000;
+  background-color: rgb(170,170,170);
+  border: solid;
+}
+
+
+a.bouton {
+  font-size: 24px;
+  color: rgb(64,64,64);
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+  background-color: rgb(200,200,200);
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid;
+  margin: 2px;
+}
+
+a:hover.bouton {
+  color: #000099;
+  background-color: rgba(240,240,240,0.80);
+}
+
+a:active.bouton {
+  color: #800000;
+  background-color: rgb(230,230,230);
+}
+
+.texte {
+  font-size: 18px;
+  background-color: rgba(255,255,255,0.90);
+  border: 1px solid;
+  padding: 10px;
+  margin: 10px;
+}
+
+.tabuled {
+  margin: 30px;
+}
+
+p:first-letter {
+  font-size: 24px;
+  font-style: italic;
+}
+
+div.menu {
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  font-style: italic;
+
+}
+
+h2 {
+  color: rgb(60,60,60);
+  font-style: italic;
+  font-size: 24px;
+  text-decoration: underline;
+}
+.cell {
+  text-align: center;
+  width: 67px;
+}
+
+.error {
+  color: red;
+}
+table { width: 10%;}
+
+#msg{
+  visibility:hidden;
+}
+#gamemsg {
+  font-size: 20px;
+  font-style: italic;
+  color: rgb(90,90,90);
+}
+#user {
+  visibility: hidden;
+}
+#adv {
+  visibility: hidden;
+}
+
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}

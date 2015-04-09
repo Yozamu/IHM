@@ -1,0 +1,38 @@
+[
+  {
+    "yearb" : "2013",
+    "yeare" : "2013",
+    "name" : "Siam",
+    "description" : "A classmate and me have done the Siam game with Java and the graphic library Swing for one of our courses."
+  },
+  {
+    "yearb" : "2013",
+    "yeare" : "2014",
+    "name" : "Sidyq",
+    "description" : "In my free time, I was coding a game with GML. It was the reproduction of a well-known MMORPG, but in a solo context. I had stopped it because I was spending too much time on it for a result that would have never been legal."
+  },
+  {
+    "yearb" : "2013",
+    "yeare" : "2014",
+    "name" : "Battleship",
+    "description" : "A classmate and me have done the Battleship game on a website, with HTML, CSS, JS and PHP. We had some difficulties to create it and allow players to interact, but we finally made it."
+  },
+  {
+    "yearb" : "2014",
+    "yeare" : "2015",
+    "name" : "Virus",
+    "description" : "After I stopped the first project, Sidyq, I wanted to start a new project, once again with GML. I've worked on it for a while, but i also gave up this project because creating the graphics and even the whole game alone was a pain for a reward that would maybe never come."
+  },
+  {
+    "yearb" : "2015",
+    "yeare" : "2015",
+    "name" : "Nasca",
+    "description" : "Nasca is our DeViNT project. It means that this is the game we want to present to sand-blind people from the Clement Ader institute. We're making this project in a group of 4 students, plus someone from outside our class that helps us for the graphics. I'm carrying the code of the game itself, while my classmates are producing the website, the level design and the game sounds."
+  },
+  {
+    "yearb" : "2015",
+    "yeare" : "2015",
+    "name" : "Island",
+    "description" : "Island is our OGL project. Our goal is to create a bot that will explore a randomly generated island, and exploit ressources to achieve given goals. Project made by 4 students in IT (first year)."
+  }
+]

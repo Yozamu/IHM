@@ -1,0 +1,37 @@
+{
+  "personal" : {
+    "firstname" : "Florent",
+    "lastname" : "Goumot-Labesse",
+    "age" : "21",
+    "sex" : "M",
+    "birthy" : "1994",
+    "birthm" : "2",
+    "birthd" : "13",
+    "mail" : "yozamu@hotmail.fr",
+    "phone" : "0687759585",
+    "adress" : "1378 route du canairet",
+    "skills" : [
+      {
+        "type" : "Computer",
+        "values" : [
+          { "name" : "Microsoft office suite", "level" : "beginner" },
+          { "name" : "Python", "level" : "beginner" },
+          { "name" : "Java", "level" : "advanced" },
+          { "name" : "HTML", "level" : "advanced" },
+          { "name" : "CSS", "level" : "advanced" },
+          { "name" : "PHP", "level" : "beginner" },
+          { "name" : "JS", "level" : "beginner" },
+          { "name" : "GML", "level" : "advanced" }
+        ]
+      },
+      {
+        "type" : "Languages",
+        "values" : [
+          { "name" : "French", "level" : "native language" },
+          { "name" : "English", "level" : "advanced" },
+          { "name" : "Spanish", "level" : "beginner" }
+        ]
+      }
+    ]
+  }
+}

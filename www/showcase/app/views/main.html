@@ -1,0 +1,32 @@
+<div class="jumbotron">
+  <h1>Welcome !</h1>
+  <p class="lead">
+    <img src="images/Vault_logo.png" alt="Vault hunter !"><br>
+    You can find informations about me on this website.
+  </p>
+  <p><a class="btn btn-lg btn-success" ng-href="#/projets">Discover my projects ! <span class="glyphicon glyphicon-ok"></span></a></p>
+  <p><a class="btn btn-lg btn-success" ng-href="#/etudes">... or my studies ! <span class="glyphicon glyphicon-ok"></span></a></p>
+  <p><a class="btn btn-lg btn-success" ng-href="#/pro"> ... or my past jobs ! <span class="glyphicon glyphicon-ok"></span></a></p>
+</div>
+
+<div class="texte">
+  <h2>Presentation</h2>
+  <p>
+    <b><i>Name :</i></b> {{infos.personal.firstname}} {{infos.personal.lastname}} <br/>
+    <b><i>Birth date :</i></b> {{infos.personal.birthy}}/{{infos.personal.birthm}}/{{infos.personal.birthd}} ({{infos.personal.age}} years old)<br/>
+    <b><i>Gender :</i></b> {{infos.personal.sex}}<br/>
+    <b><i>Adress :</i></b> {{infos.personal.adress}}
+  </p>
+
+  <h2>My skills</h2>
+  <p ng-repeat="skill in infos.personal.skills">
+    <b><i>{{skill.type}} :</i></b><br/>
+    <span class="tabuled" ng-repeat="subskill in skill.values">
+      <i><u>{{subskill.name}}</u> :</i> {{subskill.level}}<br/>
+    </span>
+  </p>
+
+  <h2>Contact</h2>
+  <b><i>Mail :</i></b> {{infos.personal.mail}}<br/>
+  <b><i>Phone number :</i></b> {{infos.personal.phone}}<br/>
+</div>

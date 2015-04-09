@@ -1,0 +1,14 @@
+<form class="texte">
+  <p>Search by starting year : <input type="text" name="city" ng-model="filteredJobs.yearb" /></p>
+  <p>Search by city : <input type="text" name="city" ng-model="filteredJobs.city" /></p>
+  <p>Search by company : <input type="text" name="city" ng-model="filteredJobs.company" /></p>
+  <p>Search by job : <input type="text" name="city" ng-model="filteredJobs.job" /></p>
+</form>
+<div class="texte" ng-repeat="job in jobs | filter: filteredJobs">
+  <p><b><i>Company</i></b> : {{job.company}}</p>
+  <p><b><i>From</i></b> : {{job.yearb}} (date : {{job.dateb}}) <b><i>To</i></b> : {{job.yeare}} (date : {{job.datee}})</p>
+  <p><b><i>City</i></b> : {{job.city}}</p>
+  <p><b><i>Job</i></b> : {{job.job}}</p>
+  <p><b><i>Earned skills</i></b> : {{job.earnedskills}}</p>
+  <p><b><i>Description</i></b> : {{job.description}}</p>
+</div>

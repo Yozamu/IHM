@@ -1,0 +1,34 @@
+[{
+      "yearb" : "2014",
+      "yeare" : "2015",
+      "school" : "Polytech Nice-Sophia",
+      "city" : "Biot",
+      "level" : "Bac +3",
+      "dateb" : "14/09/01",
+      "datee" : "15/06/30",
+      "study" : "1st year in IT.",
+      "description" : "Wonderful year, we finally have time to do something else than working."
+    },
+    {
+      "yearb" : "2013",
+      "yeare" : "2014",
+      "school" : "Polytech Nice-Sophia",
+      "city" : "Biot",
+      "level" : "Bac +2",
+      "dateb" : "13/09/01",
+      "datee" : "14/06/30",
+      "study" : "2nd year of preparatory class.",
+      "description" : "We've learnt a lot of things like how similar is an electric field to a potato."
+    },
+    {
+      "yearb" : "2012",
+      "yeare" : "2013",
+      "school" : "Polytech Nice-Sophia",
+      "city" : "Biot",
+      "level" : "Bac +1",
+      "dateb" : "12/09/01",
+      "datee" : "13/06/30",
+      "study" : "1st year of preparatory class.",
+      "description" : "New working methods, harder courses."
+    }
+  ]
